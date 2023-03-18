@@ -1,0 +1,16 @@
+.mira {
+    background-image: linear-gradient(270deg,#bc4ed8,#f988ff,#bc4ed8) !important;
+    background-size: 200% !important;
+    border: none !important;
+    border-radius: 5px !important;
+    color: #e6f1ff;
+    cursor: pointer;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    padding: 16px 25px !important;
+    transition: .6s !important;
+}
+
+.text_home {
+    color: lightgoldenrodyellow;
+}

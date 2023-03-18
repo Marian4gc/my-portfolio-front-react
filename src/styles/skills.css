@@ -1,0 +1,16 @@
+.skills-icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skills-icons .p-4:hover {
+    color:#bb78ae
+}
+
+.skills {
+    color: white;
+}

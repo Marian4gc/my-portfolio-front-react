@@ -1,0 +1,40 @@
+.featurette-divider{
+    color: white;
+}
+.work {
+    color: white
+}
+
+#custom-cards .card {
+    box-shadow: 0 4px 6px rgba(0,0,0,.2), 0 2px 4px rgba(0,0,0,.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+#custom-cards .card:hover {
+    transform: scale(1.05);
+}
+
+#custom-cards .card.cover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#custom-cards .shadow-lg {
+    box-shadow: none !important;
+}
+
+.name {
+    color:darkmagenta;
+    background: #e3bfe3ac;
+    border-radius: 5px;
+}
+
+.descp {
+    color: black;
+    font-weight: bold;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.card-cover {
+    opacity: 0.9;
+}
