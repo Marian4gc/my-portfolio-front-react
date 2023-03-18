@@ -17,51 +17,51 @@ const Skills = () => {
         <div className="skills-icons">
             <Row className='text-center'>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faHtml5} size='4x' />
+                <FontAwesomeIcon icon={faHtml5} size='3x' />
                 <h3 className='mt-4 mb-3'>HTML5</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faCss3Alt} size='4x' />
+                <FontAwesomeIcon icon={faCss3Alt} size='3x' />
                 <h3 className='mt-4 mb-3'>CSS3</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faJsSquare} size='4x' />
+                <FontAwesomeIcon icon={faJsSquare} size='3x' />
                 <h3 className='mt-4 mb-3'>JavaScript</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faReact} size='4x' />
+                <FontAwesomeIcon icon={faReact} size='3x' />
                 <h3 className='mt-4 mb-3'>React</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faBootstrap} size='4x' />
+                <FontAwesomeIcon icon={faBootstrap} size='3x' />
                 <h3 className='mt-4 mb-3'>Bootstrap</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                    <FontAwesomeIcon icon={faSymfony} size='4x' />
+                    <FontAwesomeIcon icon={faSymfony} size='3x' />
                     <h3 className='mt-4 mb-3'>Symfony</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faDatabase} size='4x' />
+                <FontAwesomeIcon icon={faDatabase} size='3x' />
                 <h3 className='mt-4 mb-3'>SQL</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faCode} size='4x' />
+                <FontAwesomeIcon icon={faCode} size='3x' />
                 <h3 className='mt-4 mb-3'>Visual Studio Code</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faFigma} size='4x' />
+                <FontAwesomeIcon icon={faFigma} size='3x' />
                 <h3 className='mt-4 mb-3'>Figma</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faGitAlt} size='4x' />
+                <FontAwesomeIcon icon={faGitAlt} size='3x' />
                 <h3 className='mt-4 mb-3'>Git</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faGithub} size='4x' />
+                <FontAwesomeIcon icon={faGithub} size='3x' />
                 <h3 className='mt-4 mb-3'>GitHub</h3>
                 </Col>
                 <Col xs={6} md={3} className='p-4'>
-                <FontAwesomeIcon icon={faPhp} size='4x' />
+                <FontAwesomeIcon icon={faPhp} size='3x' />
                 <h3 className='mt-4 mb-3'>PHP</h3>
                 </Col>
             </Row>
