@@ -4,7 +4,13 @@
 
 .foto {
     border-radius: 50%;
+
+}
+
+.foto:hover {
+    filter: grayscale(100%);
     box-shadow: 0px 0px 20px 20px rgb(155 105 105 / 50%);
+    transition: all 0.3s ease-in-out;
 }
 
 .who {

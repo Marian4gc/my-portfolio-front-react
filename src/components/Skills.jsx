@@ -12,8 +12,9 @@ const Skills = () => {
     return (
         <div id='skills' className='container-fluid'>
         <div className='d-flex justify-content-center my-5 fw-bold'>
-            <h1 className="display-5 fw-bold skills" color="white">Skills</h1>
+            <h1 className="display-5 fw-bold skills">Skills</h1>
         </div>
+            <hr className="featurette-divider"></hr>
         <div className="skills-icons">
             <Row className='text-center'>
                 <Col xs={6} md={3} className='p-4'>
