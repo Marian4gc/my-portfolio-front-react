@@ -8,6 +8,12 @@
     z-index: 1;
 }
 
+.nav__logo{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
 .nav__container{
     height: 50px;
     display: flex;

@@ -4,7 +4,7 @@ import '../styles/aboutme.css'
 
 function AboutMe() {
     return (
-    <div className="container col-xxl-8 px-4 py-5">
+    <div className="container col-xxl-8 px-4 py-5" id="about">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
                     <img src={foto} className="d-block mx-lg-auto img-fluid foto" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
