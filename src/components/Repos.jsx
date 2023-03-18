@@ -20,22 +20,20 @@ const [repo, setRepo] = useState([]);
             <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             {repo.map(int => (
                 <div className="col" key={int.id}>
-                    <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: `url(${int.image})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat', backgroundAttachment: 'contain'}}>
-                        <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 className="mt-5 mb-4 display-6 lh-1 fw-bold name">{int.name}</h3>
-                                <ul className="d-flex list-unstyled mt-auto">
-                                    <li className="me-auto">
-                                        <a href={int.link} target="_blank" rel="noopener noreferrer">
-                                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github" width="32" height="32" className="rounded-circle border border-white" />
-                                        </a>
-                                    </li>
-                                    <li className="d-flex align-items-center me-3">
-                                        <small className="descp">{int.description}</small>
-                                    </li>
-                            </ul>
-                        </div>
+                <a href={int.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                    <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg card-hover" style={{backgroundImage: `url(${int.image})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat', backgroundAttachment: 'contain'}}>
+                    <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, zIndex: 1 }} />
+                    <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" style={{ position: 'relative', zIndex: 2 }}>
+                        <h3 className="mt-5 mb-4 display-6 lh-1 fw-bold name">{int.name}</h3>
+                        <ul className="d-flex list-unstyled mt-auto">
+                        <li className="d-flex align-items-center me-3">
+                            <small className="descp">{int.description}</small>
+                        </li>
+                        </ul>
                     </div>
-                </div>
+                    </div>
+                </a>
+                </div>    
                 ))}
             </div>
         </div>
