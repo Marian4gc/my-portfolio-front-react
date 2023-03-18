@@ -7,13 +7,14 @@ import NavBar from './components/NavBar';
 import Repos from './components/Repos';
 import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path:"/",
-      element:<><NavBar /> <Home/> <AboutMe /> <Repos/> <Skills/> <Footer /> </>
+      element:<><NavBar /> <Home/> <AboutMe /> <Repos/> <Skills/> <Contact /> <Footer /> </>
     },
   ]);
 
