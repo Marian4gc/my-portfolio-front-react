@@ -10,7 +10,7 @@ function Contact() {
             <h2 className="display-5 fw-bold text-center work">Contact</h2>
             <hr className="featurette-divider"></hr>
 
-            <p class="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
+            <p className="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
 
     <div className="p-3 rounded border border-secondary bg-transparent contact">
       <Form>

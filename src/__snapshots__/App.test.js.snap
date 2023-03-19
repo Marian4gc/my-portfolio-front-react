@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component matches snapshot 1`] = `
+<div
+  className="container px-4 py-5"
+  id="custom-cards"
+>
+  <h2
+    className="display-5 fw-bold work"
+  >
+    Work
+  </h2>
+  <hr
+    className="featurette-divider"
+  />
+  <div
+    className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+    id="repos"
+  />
+</div>
+`;
