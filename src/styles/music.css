@@ -1,0 +1,10 @@
+.music {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.play {
+    background-color: #e22b6d;
+    border-radius: 10px;
+}
