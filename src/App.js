@@ -8,6 +8,7 @@ import Repos from "./components/Repos";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import MusicPlayer from "./components/MusicPlayer";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,7 @@ function App() {
         <>
           <NavBar />
           <Home />
+          <MusicPlayer />
           <AboutMe />
           <Repos />
           <Skills />
