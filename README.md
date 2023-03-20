@@ -29,6 +29,8 @@ Tiene incluída música que se puede poner y quitar dándole click.
 
 ## Mejoras futuras
 
+Incluir botón que cambie de idioma el portfolio.
+
 EXTRA Tener un zona de admin para gestionar los proyectos. CMS para gestion de contenido del portfolio (CRUD)
 
 EXTRA Desacoplar login y la gestión de CMS (Imágenes, texto, etc)
