@@ -20,8 +20,11 @@ DEBE de existir un controlador que devuelva un JSON
 DEBE de tener test de back y de front
 
 ​
+## Extras que le he añadido
 
+Mi curriculum personal se puede ver en otra pestaña y descargarse.
 
+Tiene incluída música que se puede poner y quitar dándole click.
 
 
 ## Mejoras futuras
