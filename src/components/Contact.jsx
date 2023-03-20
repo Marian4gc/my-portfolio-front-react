@@ -12,7 +12,7 @@ function Contact() {
 
     <div>
       <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="display-5 fw-bold text-center work">Contact</h2>
+        <h2 className="display-5 fw-bold text-center work" id='contact' >Contact</h2>
         <hr className="featurette-divider"></hr>
 
         <p class="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
