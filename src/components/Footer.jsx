@@ -6,10 +6,10 @@ function Footer() {
     return (
         <footer>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href='https://www.linkedin.com/in/mariangarciacabrera/' style={{ margin: '10px', color: 'white' }} >
+            <a href='https://www.linkedin.com/in/mariangarciacabrera/' target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} >
             <FaLinkedin size='2em' />
             </a>
-            <a href='https://github.com/Marian4gc' style={{ margin: '10px', color: 'white' }}>
+            <a href='https://github.com/Marian4gc' target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }}>
             <FaGithub size='2em' />
             </a>
         </div>

@@ -73,3 +73,12 @@
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
 }
+
+@media (max-width: 600px){
+    .container.px-4.py-5.text-center.mobil{
+        margin: -60px;
+        margin-bottom: 5%;
+        transform: scale(50%);
+    }
+
+}
