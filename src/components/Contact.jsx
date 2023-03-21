@@ -18,7 +18,7 @@ function Contact() {
         <p class="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
       </div>
 
-      <div className="container px-4 py-5 text-center">
+      <div className="container px-4 py-5 text-center mobil">
         <button data-text="Awesome" class="button">
           <span class="actual-text">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
           <span class="hover-text" aria-hidden="true">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
