@@ -1,11 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap, faSymfony, faFigma, faGitAlt, faGithub, faPhp} from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap, faSymfony, faFigma, faGitAlt, faGithub, faPhp, faNode, faNpm} from '@fortawesome/free-brands-svg-icons';
 import { Col, Row } from 'react-bootstrap';
 import "../styles/skills.css";
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-
+import cypressIcon from '../assests/navbar-brand.svg';
+import postmanIcon from '../assests/postman-icon.svg';
 
 
 const Skills = () => {
@@ -65,6 +66,23 @@ const Skills = () => {
                 <FontAwesomeIcon icon={faPhp} size='3x' />
                 <h3 className='mt-4 mb-3'>PHP</h3>
                 </Col>
+                <Col xs={6} md={3} className='p-4'>
+                <FontAwesomeIcon icon={faNode} size='3x' />
+                <h3 className='mt-4 mb-3'>Node</h3>
+                </Col>
+                <Col xs={6} md={3} className='p-4'>
+                <FontAwesomeIcon icon={faNpm} size='3x' />
+                <h3 className='mt-4 mb-3'>Npm</h3>
+                </Col>
+                <Col xs={6} md={3} className='p-4'>
+                <img src={cypressIcon} alt="Cypress Icon" className="cypress-icon" />
+                <h3 className='mt-4 mb-3'>Cypress</h3>
+                </Col>
+                <Col xs={6} md={3} className='p-4'>
+                <img src={postmanIcon} alt="Cypress Icon" size='3x' className="postman-icon" />
+                <h3 className='mt-4 mb-3'>Postman</h3>
+                </Col>
+
             </Row>
         </div> 
         </div>

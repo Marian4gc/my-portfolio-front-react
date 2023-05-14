@@ -18,3 +18,9 @@
 .featurette-divider{
     color: white;
 }
+
+.postman-icon {
+    width: 25%;
+    height: 25%;
+    color: white !important;
+}
