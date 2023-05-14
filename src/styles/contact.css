@@ -55,7 +55,7 @@
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
 }
-  /* this is the text, when you hover on button */
+
 .hover-text {
     position: absolute;
     box-sizing: border-box;

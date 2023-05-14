@@ -1,14 +1,15 @@
 
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Repos from "./components/Repos";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import MusicPlayer from "./components/MusicPlayer";
+import Carousel from "./components/Carousel";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,7 +21,7 @@ function App() {
           <Home />
           <MusicPlayer />
           <AboutMe />
-          <Repos />
+          <Carousel />
           <Skills />
           <Contact />
           <Footer />

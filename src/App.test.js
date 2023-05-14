@@ -12,7 +12,7 @@ import renderer from 'react-test-renderer';
 
 test('renders learn react link', () => {
   render(<NavBar />);
-  const linkElement = screen.getByText(/Marian/i);
+  const linkElement = screen.getByText(/Marian García/i);
   expect(linkElement).toBeInTheDocument();
 });
 
@@ -118,7 +118,7 @@ describe('Repos', () => {
         id: 6,
         name: 'Aplicación Navidad',
         description: 'Web dedicada a la recepción y a la realización de cartas para todos las niñas y niños del mundo.',
-        image: 'https://i.postimg.cc/6qhZZvyr/Captura-de-pantalla-2023-03-17-141107.png',
+        image: 'https://i.postimg.cc/4NqTz6LG/aplicacion-Navidad.png',
         link: 'https://github.com/Marian4gc/proyectonavidad',
       },
     ];

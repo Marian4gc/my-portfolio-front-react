@@ -22,7 +22,7 @@ function Home() {
                     offset={-100}
                     duration={1000}
                 >
-                    <button type="button" className="btn btn-primary btn-lg px-4 gap-3 mira">Check out my work!</button>
+                    <button type="button" className="btn btn-primary btn-lg px-4 gap-3 mt-3 mira">Check out my work!</button>
                 </Link>
             </div>
         </div>

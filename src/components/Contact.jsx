@@ -1,6 +1,6 @@
 import React from 'react';
-import { Form, } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Form, } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
 
 import '../styles/contact.css'
 
@@ -12,23 +12,23 @@ function Contact() {
 
     <div>
       <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="display-5 fw-bold text-center work" id='contact' >Contact</h2>
+        <h2 className="display-5 fw-bold work" id='contact' >Contact</h2>
         <hr className="featurette-divider"></hr>
 
-        <p class="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
+        <p className="lead mb-4 text-center">Do not hesitate to contact me if you want to know more</p>
       </div>
 
       <div className="container px-4 py-5 text-center mobil">
-        <button data-text="Awesome" class="button">
-          <span class="actual-text">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
-          <span class="hover-text" aria-hidden="true">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
+        <button data-text="Awesome" className="button">
+          <span className="actual-text">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
+          <span className="hover-text" aria-hidden="true">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
         </button>
       </div>
 
 
 
 
-      <div className="p-3 rounded border border-secondary bg-transparent mx-auto contact">
+      {/* <div className="p-3 rounded border border-secondary bg-transparent mx-auto contact">
         <Form>
           <Form.Group controlId="formName">
             <Form.Label>Name</Form.Label>
@@ -51,7 +51,7 @@ function Contact() {
             </Link>
           </div>
         </Form>
-      </div>
+      </div> */}
     </div>
   );
 }
