@@ -5,7 +5,9 @@ import React from 'react';
 import '../styles/contact.css'
 
 function Contact() {
-
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:mariangarcia1724@gmail.com';
+  };
 
 
   return (
@@ -19,7 +21,7 @@ function Contact() {
       </div>
 
       <div className="container px-4 py-5 text-center mobil">
-        <button data-text="Awesome" className="button">
+        <button onClick={handleEmailClick} data-text="Awesome" className="button">
           <span className="actual-text">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
           <span className="hover-text" aria-hidden="true">&nbsp;mariangarcia1724@gmail.com&nbsp;</span>
         </button>
