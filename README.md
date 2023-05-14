@@ -37,7 +37,7 @@ EXTRA Desacoplar login y la gestión de CMS (Imágenes, texto, etc)
 
 EXTRA Que puedan descargar el porfolio en formato PDF
 
-EXTRA Desplegar el fornt en vercel y desplegar el back en Clouding.io
+EXTRA Desplegar el back en Clouding.io
 
 ### `npm start`
 
