@@ -11,8 +11,7 @@ function AboutMe() {
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold lh-1 mb-3 who">Who is Marian?</h1>
-                        <p className="lead">¡Hi! I am a woman who just entered this world of code and I have discovered that I am passionate. I try to look for problems, solve them and learn them. I like to overcome the challenges and be able to create web applications and follow the designs I imagine.
-                        I have studied a Bootcamp Full-Satck developer of 850h, but I am still very curious to continue learning and advancing. If you want you can contact me.</p>
+                        <p className="lead">Hi! I am a woman who has just entered the world of coding and discovered my passion for it. I enjoy identifying and solving problems while continuously learning. Overcoming challenges and bringing my design ideas to life in the form of web applications is what excites me. I have completed an 850-hour Full-Stack Developer Bootcamp, but my curiosity to keep learning and advancing remains insatiable. Feel free to get in touch if you'd like to connect."</p>
                 </div>
             </div>
     </div>
