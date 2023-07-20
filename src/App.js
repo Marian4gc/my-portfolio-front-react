@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import MusicPlayer from "./components/MusicPlayer";
 // import Carousel from "./components/Carousel";
 import Works from "./components/Works";
+import SoftSkills from "./components/SoftSkills";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           {/* <Carousel /> */}
           <Works />
           <Skills />
+          <SoftSkills />
           <Contact />
           <Footer />
         </>
