@@ -46,6 +46,16 @@ export default function NavBar() {
               Work
             </Link>
             <Link
+              to="skills"
+              // spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1000}
+              className="nav__links"
+            >
+              Skills
+            </Link>
+            <Link
               to="contact"
               // spy={true}
               smooth={true}
