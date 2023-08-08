@@ -76,7 +76,7 @@
 
 @media (max-width: 600px){
     .container.px-4.py-5.text-center.mobil{
-        margin: -60px;
+        margin: -104px;
         margin-bottom: 5%;
         transform: scale(50%);
     }
