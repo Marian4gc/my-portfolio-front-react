@@ -1,19 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { FaGithub } from 'react-icons/fa';
 import "../styles/work.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 function Works() {
+
+    useEffect(() => {
+        AOS.init(); // Inicializa AOS
+    }, []);
+
+
     return (
         <div className="container px-4 py-5" id="custom-cards">
             <h2 className="display-5 fw-bold work" id="repos">Work</h2>
             <hr className="featurette-divider"></hr>
             <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://user-images.githubusercontent.com/117035764/233983405-466ea2eb-1f39-4855-a16f-7abfa69a986a.png" className="d-block w-100" alt="..." />
                     </div>
@@ -22,7 +30,7 @@ function Works() {
                     <a href="https://github.com/Marian4gc/SeoBirdLife" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                         <img src="https://i.postimg.cc/ZRqcLh1v/Captura-de-pantalla-2023-03-18-004207.png" className="d-block w-100" alt="..." />
                     </div>
@@ -31,7 +39,7 @@ function Works() {
                     <a href="https://github.com/Marian4gc/proyectoweb" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                         <img src="https://i.postimg.cc/X7WQmKWg/Captura-de-pantalla-2023-03-17-135723.png" className="d-block w-100" alt="..." />
                     </div>
@@ -44,7 +52,7 @@ function Works() {
 
             <div className="row g-4 py-5 row-cols-1 row-cols-lg-4">
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://i.postimg.cc/RhKn7sVn/Captura-de-pantalla-2023-03-18-002814.png" className="d-block w-100" alt="..." />
                     </div>
@@ -53,7 +61,7 @@ function Works() {
                     <a href="https://github.com/Marian4gc/formulario-react" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://user-images.githubusercontent.com/115170876/221117608-73375859-b8f3-4489-ab3d-04ef7e3dae47.jpg" className="d-block w-100" alt="..." />
                     </div>
@@ -62,7 +70,7 @@ function Works() {
                     <a href="https://github.com/Marian4gc/hackathon-animApp" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://i.postimg.cc/4NqTz6LG/aplicacion-Navidad.png" className="d-block w-100" alt="..." />
                     </div>
@@ -71,7 +79,7 @@ function Works() {
                     <a href="https://github.com/Marian4gc/proyectonavidad" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
-                <div className="feature col">
+                <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://i.postimg.cc/6qhZZvyr/Captura-de-pantalla-2023-03-17-141107.png" className="d-block w-100 carousel-image" alt="..." />
                     </div>
