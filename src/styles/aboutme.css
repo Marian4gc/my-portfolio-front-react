@@ -1,5 +1,10 @@
 .lead {
-    color:white
+    color:white;
+}
+
+.lead_about {
+    color:white;
+    text-align: justify;   
 }
 
 .foto {
