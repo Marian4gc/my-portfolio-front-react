@@ -88,6 +88,15 @@ function Works() {
                     <a href="https://github.com/Marian4gc/vivero-react" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
+                <div data-aos="fade-right" className="feature col">
+                    <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
+                        <img src="https://i.postimg.cc/YSrZrDnK/currency-converter.png" className="d-block w-100 carousel-image" alt="..." />
+                    </div>
+                    <h3 className="fs-2 text-body-emphasis">React Application</h3>
+                    <p>E-commerce application with React in a Node environment dedicated to plant sales.</p>
+                    <a href="https://github.com/Marian4gc/currencyConverter" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
+                </div>
+
             </div>
 
         </div>
