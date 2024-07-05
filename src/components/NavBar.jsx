@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "../styles/navbar.css";
-import cv from "../assests/CV-MARIAN GARCIA-FULLSTACK.pdf";
+import cv from "../assests/CV_MARIAN_GARCIA_FULLSTACK.pdf";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
