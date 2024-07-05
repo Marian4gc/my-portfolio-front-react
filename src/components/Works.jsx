@@ -23,6 +23,15 @@ function Works() {
 
                 <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
+                        <img src="https://i.postimg.cc/YSrZrDnK/currency-converter.png" className="d-block w-100 carousel-image" alt="..." />
+                    </div>
+                    <h3 className="fs-2 text-body-emphasis">Symfony Application Currency</h3>
+                    <p>This project is a simple currency converter built with Symfony (backend) and React (frontend), using real-time exchange rates.</p>
+                    <a href="https://github.com/Marian4gc/currencyConverter" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
+                </div>
+                
+                <div data-aos="fade-right" className="feature col">
+                    <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://user-images.githubusercontent.com/117035764/233983405-466ea2eb-1f39-4855-a16f-7abfa69a986a.png" className="d-block w-100" alt="..." />
                     </div>
                     <h3>Seo BirdLife</h3>
@@ -86,15 +95,6 @@ function Works() {
                     <h3 className="fs-2 text-body-emphasis">React Application</h3>
                     <p>E-commerce application with React in a Node environment dedicated to plant sales.</p>
                     <a href="https://github.com/Marian4gc/vivero-react" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
-                </div>
-
-                <div data-aos="fade-right" className="feature col">
-                    <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
-                        <img src="https://i.postimg.cc/YSrZrDnK/currency-converter.png" className="d-block w-100 carousel-image" alt="..." />
-                    </div>
-                    <h3 className="fs-2 text-body-emphasis">React Application</h3>
-                    <p>E-commerce application with React in a Node environment dedicated to plant sales.</p>
-                    <a href="https://github.com/Marian4gc/currencyConverter" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
 
             </div>
