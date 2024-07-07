@@ -19,7 +19,7 @@ function Works() {
         <div className="container px-4 py-5" id="custom-cards">
             <h2 className="display-5 fw-bold work" id="repos">Work</h2>
             <hr className="featurette-divider"></hr>
-            <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div className="row g-4 py-5 row-cols-1 row-cols-lg-4">
 
                 <div data-aos="fade-right" className="feature col">
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
@@ -34,7 +34,7 @@ function Works() {
                     <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg fs-2 mb-3">
                         <img src="https://user-images.githubusercontent.com/117035764/233983405-466ea2eb-1f39-4855-a16f-7abfa69a986a.png" className="d-block w-100" alt="..." />
                     </div>
-                    <h3>Seo BirdLife</h3>
+                    <h3 className="fs-2 text-body-emphasis">Seo BirdLife</h3>
                     <p>Educational application for geolocation and learning about birds, deployed on a server using Symfony and React.</p>
                     <a href="https://github.com/Marian4gc/SeoBirdLife" target="_blank" rel="noopener noreferrer" style={{ margin: '10px', color: 'white' }} ><FaGithub size='2em' /></a>
                 </div>
